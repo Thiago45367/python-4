@@ -12,7 +12,8 @@ class Pet:
          self.alimentacao: str = alimentacao
 
     def exibir_dados(self) -> str:
-          return (f"Nome: {self.nome}"
+          return (
+                 f"Nome: {self.nome}"
                  f"\nIdade: {self.idade}"
                  f"\nRaça: {self.raca}"
                  f"\nPorte: {self.porte}"
